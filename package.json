@@ -1,0 +1,31 @@
+{
+  "name": "blog-dashboard",
+  "version": "1.0.0",
+  "description": "Blog Backend Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "blog-backend-dashboard"
+  },
+  "author": "Burak Kumaş",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-fileupload": "^1.4.0",
+    "helmet": "^6.0.1",
+    "http-status": "^1.6.2",
+    "joi": "^17.8.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.1",
+    "nodemailer": "^6.9.1",
+    "uuid": "^9.0.0",
+    "winston": "^3.8.2"
+  }
+}
